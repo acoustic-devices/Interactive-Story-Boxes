@@ -6,7 +6,7 @@ These interactive story boxes where designed and produced for two projects for F
 1) 'Les Botiers Sauvages' for Montenegro LAB Season 2; and
 2) 'La Decolonisation dans l'espace public' for the Anderlecht local government. 
 
-With both of these projects, the story boxes where designed to deliver WAV files of people's stories and spoken content should someone come within a distance threshold of the boxes. 
+With both of these projects, the story boxes where designed to deliver WAV files of people's stories and spoken content should someone come within a distance threshold of the boxes. </br>
 These boxes where conceived to enable 'hands off' interaction through the use of a distance threshold and as such be COVID-friendly interactive projects. 
 
 # Interactive Design & Set-Up
@@ -27,8 +27,9 @@ You should configure this script as the default boot file for the Prynth by upda
 For Factum lab's projects, the Raspberry Pi 3A+ was used.
 
 # The Hardware
-Beyond the HC-SR04, Arduino Nano, and Raspberry Pi 3A+ there remaining hardware elements pertained to sound and power. 
+Beyond the HC-SR04, Arduino Nano, and Raspberry Pi 3A+ the remaining hardware elements pertained to sound and power. 
 Below is a hardware explanation for each project for which these interactive sound boxes where produced, which both had different sound and power choices.
+
 ## Les Boitiers Sauvages
 For this project, given it was to take place outdoors in the unpredictable belgian weather, the hardware sound choices centered around creating maximum sound volume whilst also protecting the sound emitter and housed electronics. For this reason a 5W surface transducer was chosen, attached to a 5V-5W mono amplifier. The advantage of this approach was the absence of a physical membrane within the sound system, often a vector for inefficencies and too poorly protected for the outside environment.
 The amplifier was attached to the Raspberry Pi through a standard mono mini-jack, with the Alsa Mixer settings set to maximum volume. </br>
