@@ -14,7 +14,7 @@ These story boxes are based upon the same software and scripts, with tweaked har
 The scripts for these story boxes are contained within this repository. 
 These two scripts are :
 1) An Arduino script ("sonar_player.ino"), for use in conjunction with a HC-SR04 Ultrasound sensor. 
-This script calculates distance based upon the Ultrasound readings. Should a certain minimum distance be read with the distance_mm variable, the Arduino shall print "PLAY" as serial. This PLAY serial message shall be read via the serial port "ttyUSB0" on the USB attached Raspberry Pi. 
+This script calculates distance based upon the Ultrasound readings. Should a certain minimum distance be read with the distance_mm variable, the Arduino shall print "PLAY" as serial. This PLAY serial message shall be read via the serial port "ttyUSB0" on the USB attached Raspberry Pi. </br>
 For both projects with Factum lab, an Arduino nano was used with the Ultrasound sensor being read on digital pins 5 & 6.     
 
 2) A SuperCollider script ("BoitiersSonores_InteractiveSystem.scd") designed for use with the Arduino SMS Quark on the Prynth OS. To use this SuperCollider script it is assumed that this set-up has been configured on a Raspberry Pi. 
@@ -23,7 +23,7 @@ Once Prynth is booted and started on your Raspberry Pi and you are connected to 
   Quarks().update ; </br>
   Quarks("Arduino").install ; </br>
 Finally, place this prepared Supercollider script into the boot file, upload your WAV file, and address your newly uploaded WAV file within the included script.
-You should configure this script as the default boot file for the Prynth by updated the file path for the default.scd Prynth file within the IDE.
+You should configure this script as the default boot file for the Prynth by updated the file path for the default.scd Prynth file within the IDE.</br> 
 For Factum lab's projects, the Raspberry Pi 3A+ was used.
 
 # The Hardware
